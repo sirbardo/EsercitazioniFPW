@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registrazione</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, FPW, PANDOLFI, ANGELO L'ESPERTO">
+        <meta name="description" content="Pandolfi's blog">
+        <meta name="author" content="Emanuele Spano">
+    </head>
+    
+    
+    <body>
+            
+        <img title="Chiamami i carabinieri" alt="Il maestro"
+             src="carabinieri.jpg" width="400" height="299">      
+        
+        <div>
+           
+            <h1>
+                <a href="index.html">
+                Maestro Pandolfi's School
+                </a>
+            </h1>
+            <hr/>
+         
+        </div>
+        
+        <div>
+        
+            <h2>Combatti la violenza nelle strade visitando le seguenti pagine:</h2>
+                <ul>
+                    <li> <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li> <a href="utente.html">
+                            Il tuo profilo
+                        </a>
+                    </li>
+                    <li> <a href="registrazione.html">
+                            Registrati
+                        </a>
+                    </li>
+                </ul>
+            <hr/>
+        
+        </div>
+        
+        <div>
+            
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome"
+                       id="nome" value="Angelo" />
+                <br/>
+                <label for="cognome">Cognome</label>
+                <input type="text" name="cognome"
+                       id="cognome" value="L'esperto" />
+                <br/>
+                <label for="password">Password </label>
+                <input type="password" name="password"
+                       id="password" value="1234" />
+                <br/>
+                <label for="uomo">Uomo</label>
+                <input type="radio" name="sesso”"
+                id="uomo" value="uomo"><br>
+                <label for="donna">Donna</label>
+                <input type="radio" name="sesso"
+                id="donna" value="donna">
+                <br/>
+                <h4>Tecniche d'interesse</h4>
+                <select name="tecniche">
+                <option value="pugno">Pugno Radiosa Primavera</option>
+                <option value="controllo">Soft Control</option>
+                <option value="fu">Fufufu</option>
+                <option value="spaccata">Spaccata</option>
+                </select>
+                <br/>
+                <br/>
+                <label for="descrizione">Descrizione</label>
+                <textarea rows="4" cols="20"
+                name="descrizione" id="descrizione">
+                L'esperto pronto ad usare violenza
+                </textarea>
+                <br/>
+                <input type="submit" value="Invio dati" /> 
+            </form>
+             
+        </div>
+               
+    </body>
+
+</html>
