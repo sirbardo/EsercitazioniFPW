@@ -12,6 +12,9 @@ and open the template in the editor.
         <meta name="keywords" content="HTML, FPW, PANDOLFI, ANGELO L'ESPERTO">
         <meta name="description" content="Pandolfi's blog">
         <meta name="author" content="Emanuele Spano">
+        <link rel="stylesheet" type="text/css" href="style.css"
+        media="screen">
+
     </head>
     
     
@@ -23,11 +26,12 @@ and open the template in the editor.
          
         <div>
            
-            <h1>
-                <a href="index.html">
-                Maestro Pandolfi's School
-                </a>
-            </h1>
+            <a href="index.html">
+                <h1 id="maintitle">
+                    Maestro Pandolfi's School
+                </h1>
+            </a>
+
             <hr/>
          
         </div>
@@ -60,24 +64,31 @@ and open the template in the editor.
         <div>
             
             <table>
-                <tr>
-                <th>Titolo</th>
-                <th>Categoria</th>
-                <th>Data</th>
+                <tr class="headerrow">
+                    <th>Titolo</th>
+                    <th>Categoria</th>
+                    <th>Data</th>
                 </tr>
                 <tr>
-                <td>Soft control</td>
-                <td>Mossa speciale</td>
-                <td>23/04/1928</td>
+                    <td>Soft control</td>
+                    <td>Mossa speciale</td>
+                    <td>23/04/1928</td>
+                </tr>
+                <tr class="evenrow">
+                    <td>Fufufu</td>
+                    <td>Mossa speciale</td>
+                    <td>19/12/1999</td>
                 </tr>
                 <tr>
-                <td>Fufufu</td>
-                <td>Mossa speciale</td>
-                <td>19/12/1999</td>
+                    <td>Pugno Radiosa Primavera</td>
+                    <td>Mossa finale</td>
+                    <td>09/07/1988</td>
                 </tr>
-                <td>Pugno Radiosa Primavera</td>
-                <td>Mossa finale</td>
-                <td>09/07/1988</td>
+                <tr class="evenrow">
+                    <td>Riga molto inutile</td>
+                    <td>Mossa finale finalissima</td>
+                    <td>09/07/2020</td>
+                </tr>
             </table>
             
         </div>

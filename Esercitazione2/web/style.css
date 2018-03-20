@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-mar-2018, 9.26.36
+    Author     : bardoz
+*/
+
+body
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #ffffff;
+    background: #333333;
+}
+
+#maintitle
+{
+    color: white;
+}
+
+h1, h2, h3
+{
+    color: #33ff33;
+}
+
+input
+{
+    background: orange;
+}
+
+input:focus
+{
+    color: red;
+    background: gray;
+}
+
+a:visited
+{
+    color: red;
+}
+
+a:link
+{
+    color: white;
+}
+
+a:active
+{
+    color: white;
+}
+
+.headerrow
+{
+    background: #33ff33;
+    font-weight: bold;
+    color: black;
+}
+
+.evenrow
+{
+    background: orange;
+    color: black;
+}
+
