@@ -8,6 +8,13 @@ and open the template in the editor.
     Author     : bardoz
 */
 
+*
+{
+    box-sizing: border-box; /*Makes it easier to calculate width*/
+    border-color: steelblue;
+}
+
+
 body
 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -22,7 +29,7 @@ body
 
 h1, h2, h3
 {
-    color: #33ff33;
+    color: #35E0B1;
 }
 
 input
@@ -53,14 +60,211 @@ a:active
 
 .headerrow
 {
-    background: #33ff33;
+    background: #35E0B1;
     font-weight: bold;
     color: black;
 }
 
 .evenrow
 {
-    background: orange;
+    background: #FFA82B;
     color: black;
 }
 
+li ol
+{
+    list-style-type: upper-roman;
+}
+
+a[href="http://google.com"]
+{
+    color: green;
+    font-size: 40px;
+}
+
+/* Inizio layout */
+
+#logo
+{
+    position:relative;
+    height: 150px;
+}
+
+.logoimg
+{
+    height:100%;
+}
+
+header
+{
+    border-width: medium;
+    border-style: solid;
+    width:100%;
+}
+
+#maintitle
+{
+    display:inline;
+    position:absolute;
+    float:right;
+    overflow:auto;
+}
+
+nav ul li
+{
+    border-style: solid;
+    border-radius: 20px;
+    margin:0px;
+    float:right;
+    padding:14px;
+    list-style: none;
+}
+
+nav ul li:first-child
+{
+    float:left;
+    width:30%;
+    border-right-width:5px;
+}
+
+nav ul li:last-child
+{
+    border-left-width: medium;
+}
+
+nav ul
+{
+    padding-left: 0px;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    position:relative;
+    margin:0px;
+
+}
+
+nav
+{
+    border-width: medium;
+    border-style: solid;
+    border-top-width:thin;
+    float: left;
+    width:100%;
+    padding-top: 0px;
+}
+
+aside
+{
+    display:block;
+    float:left;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width:0;
+    border-left-width:medium;
+    border-right-width:medium;
+    height:400px;
+    width:30%;
+}
+
+main
+{
+    float:left;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width:0;
+    border-left-width:0;
+    border-right-width:0;
+    width:70%;
+    height:400px;
+}
+
+#user_name
+{
+    border-style:solid;
+    height:100px;
+    float:left;
+    width:50%;
+    border-bottom-width: 0;
+    border-top-width:0;
+    border-left-width:0;
+    border-right-width:0;
+    overflow:auto;
+}
+
+#user_surname
+{
+    float:left;
+    width:50%;
+    height:100px;
+    border-style:solid;
+    border-bottom-width: 0;
+    border-top-width:0;
+    border-left-width:0;
+    border-right-width:medium;
+    overflow:auto;
+}
+
+footer
+{
+    clear: both;
+    position: relative;
+    margin-top: -3%;
+    border-style:solid;
+    border-width:medium;
+    width:100%;
+}
+
+footer div
+{
+    position:relative;
+    font-size:10px;
+    text-align: center;
+}
+
+section
+{
+    border-right-width: medium;
+    border-bottom-width:0;
+    border-left-width:0;
+    border-style:solid;
+    float:left;
+    width:100%;
+    height:300px;
+    overflow:auto;
+}
+
+aside div
+{
+    position:relative;
+    height:50%;
+    overflow:auto;
+}
+
+#categorie
+{
+    border-style:solid;
+    border-bottom-width: 0;
+    border-top-width:medium;
+    border-left-width:0;
+    border-right-width:0;
+}
+
+#categorie ul
+{
+    list-style-type: square;
+}
+
+section table
+{
+    width:100%;
+}
+
+#profile
+{
+    background:blue;
+}
+
+#profile a
+{
+    color:white;
+}
